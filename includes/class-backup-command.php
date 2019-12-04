@@ -15,7 +15,7 @@ WP_CLI::add_command( 'backup', 'Backup_Command' );
  *
  * @when after_wp_config_load
  */
-class Backup_Command extends WP_CLI_Command {
+class Backup_Command extends WP_LMaker_CLI_Command_Base {
 
 	protected static $tables_info = null;
 
